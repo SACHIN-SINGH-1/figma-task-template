@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+* {
+  box-sizing: border-box;
+  line-height: normal;
+  font-family: inherit;
+  margin: unset;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+input {
+  background-color: transparent;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+.gradient-bg {
+  background: linear-gradient(#7E9949 100%, #A9CB66 100%, #FFFFFF 100%);
+}
+
+.grey-bg {
+  background-color: #E1E1E1;
+}
+
+.green-bg {
+  background-color: #7E9949;
+}
+
+.green-font {
+  color: #7E9949;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  background-color: #A9CB66; /* Optional: Set a background color to see the effect */
+}
+
+.image-container img {
+  width: 100%; /* Adjust size as needed */
+  mix-blend-mode: multiply;
+  filter: brightness(1.2) contrast(1.5);
+}
