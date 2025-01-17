@@ -10,7 +10,7 @@ const ProjectRoutes = () => {
         { path: "/", element: <Home /> },
         { path: "*", element: <NotFound /> },
         {
-            path: "/",
+            path: "/figma-task-template",
             element: <Task />,
         },
     ]);
