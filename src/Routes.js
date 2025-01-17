@@ -1,8 +1,8 @@
 import React from "react";
 import { useRoutes } from "react-router-dom";
 import Home from "./pages/Home.jsx";
-import NotFound from "./pages/NotFound";
-import Task from "./pages/Task";
+import NotFound from "./pages/NotFound.jsx";
+import Task from "./pages/Task/index.jsx";
 
 const ProjectRoutes = () => {
 
@@ -10,7 +10,7 @@ const ProjectRoutes = () => {
         { path: "/", element: <Home /> },
         { path: "*", element: <NotFound /> },
         {
-            path: "/figma-task-template",
+            path: "/",
             element: <Task />,
         },
     ]);
