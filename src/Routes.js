@@ -1,6 +1,6 @@
 import React from "react";
 import { useRoutes } from "react-router-dom";
-import Home from "./pages/Home";
+import Home from "./pages/Home.jsx";
 import NotFound from "./pages/NotFound";
 import Task from "./pages/Task";
 
