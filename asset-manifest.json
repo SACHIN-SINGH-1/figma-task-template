@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/figma-task-template/static/css/main.285b5e6c.css",
+    "main.js": "/figma-task-template/static/js/main.b5e0d6ce.js",
+    "index.html": "/figma-task-template/index.html",
+    "main.285b5e6c.css.map": "/figma-task-template/static/css/main.285b5e6c.css.map",
+    "main.b5e0d6ce.js.map": "/figma-task-template/static/js/main.b5e0d6ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.285b5e6c.css",
+    "static/js/main.b5e0d6ce.js"
+  ]
+}
